@@ -100,7 +100,7 @@
 }
 
 .quote-box {
-  background: rgba(255, 255, 255, 0.05);
+  background: #151515;
   border-left: 4px solid #ffb143; 
   padding: 20px;
   margin-top: 20px;
@@ -125,5 +125,78 @@
 
 .quote-box:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  box-shadow: 0 10px 25px rgba(159, 155, 155, 0.25);
+}
+
+/* .projects-experience {
+    padding: 40px 50px;
+}
+ 
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+} */
+.projects-experience {
+    padding: 40px 50px;
+}
+
+.projects-experience p{
+    font-size: 14px;
+    padding: 12px 0px;
+}
+
+ .experience-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.experience-table th,
+.experience-table td {
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 12px;
+  text-align: left;
+}
+
+.experience-table th {
+  background-color: #262626;
+  font-weight: bold;
+  color: #f8bd6a;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 50px;
+
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.contact-text {
+    font-size: 14px;
+    padding: 12px 0px;
+    padding-bottom: 30px;
+
+}
+
+.contact-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.contact-links a:hover {
+    color: #ffb143;
 }
