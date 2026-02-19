@@ -26,6 +26,11 @@
     gap: 60px;
     
 }
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
 .nav-links li :hover {
     color: #ffb143;
 
@@ -34,16 +39,16 @@
 
 .intro {
     /* text-align: center; */
-    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 40px 50px;
 }
 
 .intro h1 {
     font-size: 70px;
     margin-bottom: 20px;
+
 }
 
 .intro p {
@@ -58,4 +63,67 @@
     height: 500px;
     border-radius: 50%;
     /* transform: rotate('angle'); */
+}
+
+.divider {
+        margin: 0px 40px;
+        border: 1px solid #262626;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two columns */
+  gap: 40px;
+  align-items: center;
+  margin: 40px 0;
+  padding: 20px 50px;
+}
+
+.hiking-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.wrapper p {
+  font-size: 14px;
+  padding: 14px 0px;
+
+}
+
+.wrapper ul {
+  list-style: circle;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.quote-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #ffb143; 
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 0;
+  color: #ffffff;
+}
+
+.quote-author {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+
+.quote-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
